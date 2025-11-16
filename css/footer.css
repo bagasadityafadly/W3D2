@@ -1,0 +1,52 @@
+footer {
+    background-color: rgba(0, 0, 0, 0.864);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px 20px;
+    line-height: 1.7;
+}
+
+footer ul li a {
+    color: white;
+}
+
+.footer-soc {
+    padding: 20px;
+    margin-right: 100px;
+}
+
+.footer-about, 
+.footer-help {
+    padding: 20px;
+}
+
+.socmed {
+    display: flex;
+    padding: 20px 0;
+    gap:10px;
+}
+.socmed img {
+    width: 30px;
+    height: auto;
+    filter: brightness(0) invert(1);
+}
+
+@media (min-width: 724px) {
+    footer {
+        display: flex;
+        flex-wrap: wrap; 
+    }
+
+    .footer-soc,
+    .footer-about,
+    .footer-help {
+        flex: 1;              
+        padding: 20px;
+    }
+
+    footer > p {
+        flex-basis: 100%;    
+        text-align: center;   
+        margin: 10px 0 0; 
+    }
+}

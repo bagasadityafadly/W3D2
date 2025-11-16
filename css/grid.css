@@ -1,0 +1,33 @@
+.new-coll {
+    text-align: center;
+    padding: 20px 40px;
+}
+.new-coll img {
+    width: 200px;
+    height: auto;
+    border-radius: 5%;
+}
+
+.feat-coll {
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 20px 40px;
+}
+
+.feat-coll img {
+    width: 250px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 5%;
+}
+
+.upd-media {
+    text-align: center;
+    padding: 20px;
+}
+
+.upd-media img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
